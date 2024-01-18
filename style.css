@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: blanchedalmond;
+}
+h1{
+    padding: 30vh 0px 0px 0vh;
+}
+#username {
+    width: 50%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#search {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: gainsboro;
+}
+
+#repo-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+#repo-list li {
+    padding: 0.5rem 0;
+}
+
+#repo-list a {
+    text-decoration: none;
+    color: #0052cc;
+}
